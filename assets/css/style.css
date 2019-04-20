@@ -1,0 +1,36 @@
+.jumbotron{
+    font-family: 'Teko', sans-serif;
+    background-image: url(assets/images/background.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid lightskyblue;
+}
+
+body{
+    font-family: 'Teko', sans-serif;
+    background-image: url(assets/images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.card{
+    width: fit-content;
+    bottom: -30%;
+    left: 80%;
+}
+
+#city-input{
+    width: fit-content;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-sm"] {
+      width: 100%;
+    }
+  }
